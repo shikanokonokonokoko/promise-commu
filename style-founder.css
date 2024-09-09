@@ -1,0 +1,89 @@
+
+.founder-body  {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  
+}
+
+.founder-body .navbar  {
+    width: 100%;
+    padding: 10px;
+    margin-left: 31px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9px;
+}
+
+.founder-body .founders {
+    text-align: center;
+ 
+    font-size: 28px;
+    color: #333;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px; 
+}
+
+.team-row {
+    display: flex;
+    justify-content: center; 
+    margin: 10px 0;
+}
+
+.team-member {
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px; 
+}
+
+.team-row:first-child .team-member {
+    margin: 0 30px; 
+}
+
+.role {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.name {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
